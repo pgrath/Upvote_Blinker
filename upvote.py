@@ -4,7 +4,7 @@ import piglow
 
 #set up user agent and select user 
 r = praw.Reddit(user_agent='Upvote_blinker')
-usr = r.get_redditor('abdallhhelles')
+usr = r.get_redditor('reddit_user')
 
 #set up piglow
 piglow.auto_update = True
