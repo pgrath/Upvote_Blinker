@@ -43,5 +43,5 @@ while True:
 	glow()
     else:
         continue
-
+    #eventually run this via cron
     time.sleep(5)
